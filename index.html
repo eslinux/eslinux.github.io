@@ -1,24 +1,9 @@
-<html><head>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>
-getTxt = function (i_url){
-	console.log(i_url);
-  $.ajax({
-   //https://eslinux.github.io/README.md
-   
-    url: i_url,
-    success: function (data){
-      //parse your data here
-      //you can split into lines using data.split('\n') 
-      //an use regex functions to effectively parse it
-	  
-	  //https://eslinux.github.io/
-	  document.getElementById('output').textContent=data;
-    }
-  });
-}
-</script>
-</head><body>
-  <button type="button" id="btnGetTxt" onclick="getTxt('https://eslinux.github.io/README.md')">Get Text</button>
-  <pre id="output"></pre> 
-</body></html>
+<html>
+<head>
+<meta http-equiv="refresh" content="3; URL=https://eslinux.github.io/autocode/" />
+</head>
+
+<body>
+<p>If you are not redirected in 3 seconds, <a href="https://eslinux.github.io/autocode/">click here</a>.</p>
+</body>
+</html>
